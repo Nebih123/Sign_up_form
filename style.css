@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#image_container {
+    width: 40%;
+    overflow: hidden;
+}
+
+img {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    height: 30%;
+    padding-top: 7%;
+    background-color: #f5f5f5;
+}
+
+header p {
+    margin: 25px;
+}
+
+main {
+    height: 40%;
+}
+
+main > * {
+    margin: 25px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+form {
+    margin-top: 0;
+}
+
+label {
+    font-size: small;
+}
+
+#input_title {
+    font-weight: lighter;
+    margin: 25px 25px 15px 25px;
+}
+
+input {
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 2px 2px lightblue;
+    border-radius: 2px;
+}
+
+#row_one_input {
+    margin-right: 25px;
+}
+
+#first_name {
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+#last_name {
+    margin-bottom: 20px;
+}
+
+#phone_number {
+    margin-bottom: 20px;
+}
+
+#row_two_input {
+    margin-right: 25px;
+}
+
+#comment {
+    margin: 0;
+    font-size: 11px;
+    color: red;
+}
+
+button {
+    position: relative;
+    bottom: -40px;
+    padding: 10px 30px 10px 30px;
+    border: 0;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #596D48;
+    font-weight: bold;
+}
+
+footer {
+    height: 30%;
+    background-color: #f5f5f5;
+
+}
+
+#text {
+    margin-top: 40px;
+    padding: 25px;
+}
+
