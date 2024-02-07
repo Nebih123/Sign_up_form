@@ -6,22 +6,12 @@ let phone_number = document.getElementById('phone_number').value;
 let psw_one = document.getElementById('psw_one');
 let psw_two = document.getElementById('psw_two');
 let comment = document.getElementById('comment');
+let comment_two = document.getElementById('comment_two');
 const form = document.forms['account']
-
-
-
 
 form.addEventListener('submit', (event) => {
     if (psw_two.value != psw_one.value) {
         comment.innerText = "*Passwords do not match";
-    } 
-    else {
-        forms()
+        event.preventDefault(); 
     }
 });
-
-
-function forms() {
-    comment.innerHTML = ''
-    form.reset()
-}
